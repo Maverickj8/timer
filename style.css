@@ -1,0 +1,66 @@
+body {
+  height: 100vh;
+  background: url(./images/city.jpg) no-repeat center center/ cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  text-align: center;
+}
+#timer {
+  width: 100%;
+  font-size: 100px;
+  color: #ffffffaf;
+  background-color: rgba(0, 0, 0, 0.322);
+  padding: .5rem;
+  border-radius: 10px;
+  margin-bottom: 35px;
+  box-shadow: 2px 3px 10px rgb(0, 0, 0);
+}
+/* #timer span {
+  background-color: rgba(0, 0, 0, 0.148);
+  color: #ffffffca;
+  padding: .5rem;
+  border-radius: 10px;
+  box-shadow: 2px 3px 10px rgb(0, 0, 0); */
+
+#start-button {
+  border: 0;
+  box-shadow: 2px 3px 10px rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: .4rem .9rem;
+  font-size: 40px;
+  background-color: rgba(14, 255, 78, 0.441);
+  color: #fff;
+  margin-right: 1rem;
+}
+#stop-button {
+  border: 0;
+  border-radius: 10px;
+  padding: .5rem .8rem;
+  font-size: 40px;
+  box-shadow: 2px 3px 10px rgb(0, 0, 0);
+  background-color: rgba(241, 2, 2, 0.441);
+  color: #fff;
+  margin-left: 1rem;
+
+}
+#stop-button:active {
+    background-color: rgba(241, 2, 2, 0.273);
+    color: #ffffffbf
+}
+/* #start-button:active {
+    background-color: rgba(14, 255, 78, 0.674);
+    color: #ffffff7b */
+
+#pause-button {
+  border: 0;
+  border-radius: 10px;
+  padding: .5rem .8rem;
+  font-size: 40px;
+  box-shadow: 2px 3px 10px rgb(0, 0, 0);
+  background-color: rgba(255, 247, 0, 0.557);
+  color: #fff;
+  margin-right: 1rem;
+}
